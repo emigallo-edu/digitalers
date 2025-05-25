@@ -63,6 +63,14 @@ Vamos a realizar un trabajo integrador en equipo que abarca los 7 tramos. Para e
 ¿Qué espero de ustedes?
 Que tengan las cámaras encendidas, que participen en clase, que realicen las actividades obligatorias y las recomendadas
 
+### Prerequisitos para el desarrollo del curso
+Saber crear una carpeta, un archivo, instalar un programa, saber usar Youtube, Drive, algún chat
+
+digitalers@educacionit.com
+75% de asistencia y toda las evaluaciones de Alumni hechas para obtener el certificado
+
+
+
 ### Tramo 1
 [Visual Studio Code](https://code.visualstudio.com/)
 [Editor HTML online](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default)
