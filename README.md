@@ -52,6 +52,7 @@
 
 ## Presentación
 👋 [Video de bienvenida](https://drive.google.com/file/d/19j0zhQAByY5DULwatqKURDZ1LuM6txLX/view?usp=sharing)
+<br>
 📊 [Encuesta de diagnóstico](https://docs.google.com/forms/d/1AyN6dOZdMJHbYr90Kxp5buuC1V2JiCy60rLS9OscvBw/preview)
 
 ## Composición del curso
@@ -77,7 +78,7 @@ Para que la clase sea más dinámica y cercana, te pedimos que, si tenés la pos
 - [W3Schools](https://www.w3schools.com/html/default.asp)
 - [Developer Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [Flexbox Froggy](https://flexboxfroggy.com/#es)
-- [Contenido](https://github.com/emigallo-edu/HTML-CSS-JS)
+- [Contenido](https://github.com/emigallo-edu/html-css)
 
 ### Tramo 2
 - [Cuenta en GitHub](https://github.com/)
