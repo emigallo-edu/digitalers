@@ -60,13 +60,7 @@
 - Las clases van a arrancan con un espacio de consultas ya sean de la clase en curso o de cualquiera anterior. Teoría complementaria a la que se encuentra en Alumni. Desarrollo de ejercicios en conjunto.
 - Vamos a realizar un trabajo integrador en equipo que abarca los 7 tramos. Para esto vamos a utilizar un tiempo determinado dentro de la clase y luego se complementa con tiempo fuera de la clase.
 
-### Prerequisitos para el desarrollo del curso
-Saber crear una carpeta, un archivo, instalar un programa, saber usar Youtube, Drive, algún chat
-
-digitalers@educacionit.com
-75% de asistencia y toda las evaluaciones de Alumni hechas para obtener el certificado
-
-### Algunas reglas de convivencia
+### Durante la clase
 - 🎤 Mantené tu micrófono silenciado mientras no estes hablando
 - 📷 Cámara encendida (si podés 😊)
 Para que la clase sea más dinámica y cercana, te pedimos que, si tenés la posibilidad, mantengas la cámara encendida. Entendemos que a veces no se puede, y no hay problema. ¡Lo importante es que estés presente y participando!
