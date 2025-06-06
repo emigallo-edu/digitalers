@@ -73,6 +73,7 @@ Para que la clase sea más dinámica y cercana, te pedimos que, si tenés la pos
 - [Developer Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [Flexbox Froggy](https://flexboxfroggy.com/#es)
 - [Contenido](https://github.com/emigallo-edu/html-css)
+- [Cliente-Servidor](https://github.com/emigallo-edu/blog-tech/blob/main/docs/client-server/content.md)
 
 ### Tramo 2
 - [Cuenta en GitHub](https://github.com/)
