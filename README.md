@@ -78,6 +78,7 @@ Para que la clase sea más dinámica y cercana, te pedimos que, si tenés la pos
 ### Tramo 2
 - [Cuenta en GitHub](https://github.com/)
 - [Git](https://git-scm.com/downloads/win)
+- [Contenido](https://github.com/emigallo-edu/js)
 
 ### Tramo 3
 - [Visual Studio 2022 Community](https://visualstudio.microsoft.com/vs/)
