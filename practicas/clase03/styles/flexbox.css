@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: green;
+}
+
+section {
+    padding: 5px;
+    background-color: yellow;
+}
+
+.left {
+    width: 20%;
+}
+
+.center {
+    width: 50%;
+}
+
+.right {
+    width: 20%;
+}
+
+nav {
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    ;
+}
+
+footer {
+    background-color: lightgreen;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+main {
+    background-color: red;
+}

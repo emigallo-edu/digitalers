@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba inicial con JS</title>
+    <script>
+        let valor1 = 1;
+        let valor2 = 4;
+        let resultado = valor1 + valor2;
+        // console.log("El resultado de la suma es:" + (valor1 + valor2));
+
+        let isPar;
+
+        if (resultado % 2 == 0) {
+            // console.log("El resultado es par");
+            isPar = true;
+        } else {
+            // console.log("El resultado es impar");
+            isPar = false;
+        }
+
+        let contador = 6;
+        while (contador < 5) {
+            contador = contador + 1;
+            // console.log("Valor del contador en el while : " + contador);
+        }
+
+        contador = 0;
+        do {
+            // contador = contador + 1;
+            // contador += 1;
+            contador++;
+            // console.log("Valor del contador en el do-while : " + contador);
+        } while (contador < 5);
+
+        let diasDeLaSemana = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"];
+
+        for (let indice = 0; indice < diasDeLaSemana.length; indice++) {
+            // console.log(diasDeLaSemana[indice]);
+        }
+
+        let contadorWhile = 0;
+        while (contadorWhile < diasDeLaSemana.length) {
+            console.log(diasDeLaSemana[contadorWhile]);
+            contadorWhile++
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

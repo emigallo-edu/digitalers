@@ -1,0 +1,35 @@
+ * {
+     /* box-sizing: border-box; */
+ }
+
+ .container {
+     display: grid;
+     grid-template-columns: 100%;
+ }
+
+ section {
+     padding: 5px;
+ }
+
+ .left {
+     background-color: yellow;
+     padding: 5px;
+ }
+
+ .center {
+     background-color: lightgray;
+     padding: 5px;
+ }
+
+ .right {
+     background-color: lightcoral;
+     padding: 5px;
+ }
+
+ nav {
+     display: none;
+ }
+
+ footer {
+     display: none;
+ }

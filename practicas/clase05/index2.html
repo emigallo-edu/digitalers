@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creamos HTML desde JS</title>
+
+</head>
+
+<body>
+    <h2 id="menosDe22">Son menos de las 22</h2>
+    <h2 id="masDe22">Son mas de las 22</h2>
+
+    <script>
+        
+        const horaActual = 23;
+        console.log("Hora actual: " + horaActual);
+
+        if (horaActual >= 22) {
+            let h2 = document.getElementById("menosDe22");
+            h2.style.display = "none";
+
+        } else {
+            let h2 = document.getElementById("masDe22");
+            h2.style.display = "none";
+            // Ocultamos masDe22
+        }
+    </script>
+</body>
+
+</html>
