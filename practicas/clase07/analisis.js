@@ -10,10 +10,10 @@ ddaammaa
 //     "29/02/2020", "1999/07/15", "14/08/2023", "2024-04-30", "2024/15/06", "31/02/2024",
 //     "99/99/9999", "abc-def-ghi", "12-13-2021", "2020/00/10","17/a/2024"]
 
-// let fechas = ["17/a/2024"];
-// for (let fecha of fechas) {
-// console.log(fecha + " - " + validarFecha(fecha))
-// }
+let fechas = ["29/02/2020"];
+for (let fecha of fechas) {
+    console.log(fecha + " - " + validarFecha(fecha))
+}
 
 // dd/MM/yyyy, MM/dd/yyyy
 function validarFecha(fecha) {
@@ -26,8 +26,9 @@ function validarFecha(fecha) {
         return verificarQueLosComponentesSeanNumeros(componentes);
     }
 
-
-
+    if (verificarPosicionesDeCadaComponente(componentes) != "") {
+        return verificarPosicionesDeCadaComponente(componentes);
+    }
 
     return "La fecha está correcta";
 }
@@ -56,8 +57,25 @@ function verificarQueLosComponentesSeanNumeros(componentes) {
     return "";
 }
 
-function verificarPosicionesDeCadaComponente(fecha) {
+function verificarPosicionesDeCadaComponente(componentes) {
     // Que sea dd/MM o MM/dd y que el año esté en la 3ra posición
+    if (verificarAnioTieneValorValido(componentes[2]) == "") {
+        // Si entra es porque el año es válido
+
+        // Verificamos si es dd/MM
+        if (verificarDiaTieneValorValido(componentes[0]) == "" && verificarMesTieneValorValido(componentes[1]) == "") {
+            // Si entra es porque es dd/MM
+            return "";
+        }
+
+        // Verificamos si es MM/dd
+        if (verificarDiaTieneValorValido(componentes[1]) == "" && verificarMesTieneValorValido(componentes[0]) == "") {
+            // Si entra es porque es MM/dd
+            return "";
+        }
+        return "El día o el mes no son válidos";
+    }
+    return "El año no es válido";
 }
 
 function verificarDiaTieneValorValido(anio, mes, dia) {
@@ -105,4 +123,4 @@ function esBiciesto(anio) {
     return (anio % 4 == 0 && anio % 100 != 0) || anio % 400 == 0;
 }
 
-console.log(verificarDiaTieneValorValido(2025, 4, 31));
+// console.log(verificarDiaTieneValorValido(2025, 4, 31));

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="dom.js"></script>
+    <link href="tabla.css" rel="stylesheet">
+</head>
+
+<body>
+    <p id="parrafo"></p>
+    <div>
+        <p id="mensaje">Hola mundo</p>
+        <button onclick="cambiarTexto('mensaje')">Cambiar texto</button>
+    </div>
+    <div>
+        <p id="texto">Texto con estilo</p>
+        <button onclick="cambiarColor('texto')">Cambiar color</button>
+    </div>
+    <div>
+        <ul id="lista"></ul>
+        <button onclick="agregarItem('lista')">Agregar ítem</button>
+    </div>
+    <div>
+        <p id="contador">0</p>
+        <button onclick="incrementar('contador')">➕</button>
+        <button onclick="reiniciar('contador')">🔄</button>
+    </div>
+    <div>
+        <button onclick="cambiarColor()">Cambiar color a todos los botones</button>
+    </div>
+</body>
+
+</html>
