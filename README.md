@@ -82,6 +82,7 @@ Para que la clase sea más dinámica y cercana, te pedimos que, si tenés la pos
 
 ### Tramo 3
 - [Visual Studio 2022 Community](https://visualstudio.microsoft.com/vs/)
+- [Contenido](https://github.com/emigallo-edu/cSharp)
 
 ### Tramo 4
 - [Sql Server](https://go.microsoft.com/fwlink/p/?linkid=2215158&clcid=0x40A&culture=es-es&country=es)
