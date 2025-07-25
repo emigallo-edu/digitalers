@@ -1,29 +1,56 @@
-﻿namespace ZooPoo.Entidades
+﻿using System.Drawing;
+
+namespace ZooPoo.Entidades
 {
     // El Perro es un Mamifero
     internal class Perro : Mamifero
     {
-        private string _juegueteFavorito;
+        private Juguete _juegueteFavorito;
+        private Ojo _ojoDerecho;
+        private Ojo _ojoIzquierdo;
 
-        public Perro(string nombre, DateTime nacimiento, string raza, string juegueteFavorito)
+        public Perro(string nombre, DateTime nacimiento, string raza)
             : base(nombre, nacimiento, raza)
         {
-            _juegueteFavorito = juegueteFavorito;
+            // El perro esta conformado porque 1 ojo derecho y 1 ojo izquierdo
+            _ojoDerecho = new Ojo() { Color = "Marrón" };
+            _ojoIzquierdo = new Ojo() { Color = "Celeste" };
         }
 
-        public void Caminar()
+        // El perro está asociado a un juguete
+        public void SetearJugueteFavorito(Juguete juguete)
         {
-            Console.WriteLine("Estoy caminando");
+            _juegueteFavorito = juguete;
+        }
+
+        // El perro usa a la persona solo para pasear
+        public void SalirAPAsear(Persona persona)
+        {
+            Console.WriteLine($"Estoy paseando con {persona.Nombre}");
         }
 
         public void Olfatear()
         {
-            Console.WriteLine("Estoy olfateando");
+            if (_juegueteFavorito != null)
+            {
+                Console.WriteLine("No quiero olfatear porque estoy jugando");
+            }
+            else
+            {
+                Console.WriteLine("Estoy olfateando");
+            }
         }
 
         public void Jugar()
         {
-            Console.WriteLine($"Estoy jugando con un {_juegueteFavorito}");
+            if (_juegueteFavorito != null)
+            {
+                Console.WriteLine($"Estoy jugando con un {_juegueteFavorito}");
+            }
+            else
+            {
+                Console.WriteLine("No puedo jugar porque no tengo un jueguete");
+            }
         }
 
         public override void Comunicarse()
@@ -40,5 +67,6 @@
             int edad = (int)(DateTime.Today - _nacimiento).TotalDays / 365;
             Console.WriteLine($"Hola, soy {_nombre} y tengo {edad * 7} años");
         }
+
     }
 }

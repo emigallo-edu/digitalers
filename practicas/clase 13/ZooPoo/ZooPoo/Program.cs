@@ -3,9 +3,11 @@ using ZooPoo.Entidades;
 
 
 List<Animal> animales = new List<Animal>();
-animales.Add(new Perro("Lola", new DateTime(2020, 4, 2), "Mestiza", "Soga"));
-animales.Add(new Perro("Coco", new DateTime(2010, 4, 2), "Callejero", "Juegue"));
-animales.Add(new Perro("Cheddar", new DateTime(2010, 4, 2), "Caniche", "Pelota"));
+Perro perr1 = new Perro("Lola", new DateTime(2020, 4, 2), "Mestiza");
+perr1.SetearJugueteFavorito(new Juguete());
+animales.Add(perr1);
+animales.Add(new Perro("Coco", new DateTime(2010, 4, 2), "Callejero"));
+animales.Add(new Perro("Cheddar", new DateTime(2010, 4, 2), "Caniche"));
 
 animales.Add(new Gato("Pita", new DateTime(2018, 3, 9), "Mestiza", "Ratoncito"));
 
